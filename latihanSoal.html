@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Soal</title>
+</head>
+<body>
+    <script>
+
+    /* TIPE DATA STRING */
+    let greeting = "Hello my name is Ismail";
+    console.info(greeting);
+    
+    /* TIPE DATA NUMBER */
+    const num1 = 20;
+    const num2 = 10;
+
+    result1 = num1 + num2;
+    result2 = num1 - num2;
+    result3 = num1 * num2;
+    result4 = num1 / num2;
+
+    console.info(result1);
+    console.info(result2);
+    console.info(result3);
+    console.info(result4);
+
+    /* TIPE DATA BOOLEAN */
+    const umurAndre = 21;
+    const isAdult = umurAndre > 18;
+    
+    console.info(isAdult);
+
+    /* TIPE DATA ARRAY */
+    shoppingList = ["Handbody", "Handsoap", "Facewash", "Shampoo", "Wheels"];
+    console.info(shoppingList[0], shoppingList[4]);
+
+    /* NaN (Not a Number) */
+    const result = "hello" / 5;
+    console.info(result);
+
+    /* isNaN FUNCTION */
+    function checkIfNaN(value) {
+        if (isNaN(value)) {
+            console.info("This Is NaN");
+        } else {
+            console.info("This Is Number");
+        }
+    }
+
+    checkIfNaN(123)
+    checkIfNaN("santai")
+    checkIfNaN(132)
+    checkIfNaN("anjing")
+
+    </script>
+</body>
+</html>
