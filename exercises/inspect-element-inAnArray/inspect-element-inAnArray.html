@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspect Element in an Array</title>
+</head>
+<body>
+    <script>
+
+        const fruits = ["Apple", "Banana", "Orange", "Mango", "Watermelon", "Grapes", "Pineapple", "Strawberry", "Blueberry", "Raspberry"];
+        console.table(fruits);
+
+        if (1 in fruits) {
+            console.log("INCLUDED");
+        } else {
+            console.log("Not INCLUDED");
+        }
+
+    </script>
+</body>
+</html>

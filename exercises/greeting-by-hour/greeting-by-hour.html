@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greeting by Hour</title>
 </head>
-<body>
+<body style="background-color: #101735;">
     <script>
 
         function greetByTime (hour) {
-            if (hour = 6 / 7) {
-                return console.log("Good Morning");
-            } if else {
-
+            if (hour >= 6 && hour <= 12) {
+                console.log("Good Morning");
+            } else if (hour >=13 && hour <=18) {
+                console.log("Good Afternoon");
+            } else if (hour < 6) {
+                console.log("Its Dawn");
+            } else {
+                return console.log("Good Night");
             }
         }
+
+        greetByTime(14);
+        greetByTime(23);
+        greetByTime(8);
+        greetByTime(4);
 
     </script>
 </body>
