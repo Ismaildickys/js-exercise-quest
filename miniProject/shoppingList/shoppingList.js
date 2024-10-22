@@ -13,6 +13,7 @@ addItem("Watermelon");
 addItem("Dragon Fruit");
 addItem("Toilet Paper");
 addItem("Orange");
+addItem("Durian");
 
 console.log(shoppingList);
 
