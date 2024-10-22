@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Number to String</title>
+</head>
+<body>
+    <script>
+
+        let num = 123;
+        let num2 = 33;
+        
+        let convert = num.toString(); 
+        console.log(convert);
+
+        const result = convert + num2;
+        console.log(result);
+
+        if (typeof result === "number") {
+            console.log("This is number");
+        } else if (typeof result === "string") {
+            console.log("This is string");
+        } else {
+            console.log("This is object");
+        }
+
+    </script>
+</body>
+</html>
