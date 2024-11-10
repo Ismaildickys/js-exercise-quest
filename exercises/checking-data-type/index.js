@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checking Data Type</title>
-</head>
-<body style="background-color: #14264d;">
-    <script>
-
-        let data = {
+let data = {
             "name": "Ismail",
             "age": 25,
         }; // OBJECT
@@ -25,7 +15,3 @@
         } else {
             console.log("UNDEFINED")
         }
-
-    </script>
-</body>
-</html>
